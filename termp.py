@@ -38,5 +38,5 @@ if play==1:
         print("승리")
       elif computer == '보':
         print("컴퓨터는 보를 냈습니다")
-        print("")
+        print("무승부")
  
