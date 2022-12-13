@@ -65,4 +65,4 @@ def BO():
         cv2.destroyAllwindow()
         print("컴퓨터는 보를 냈습니다")
         print("무승부")
-모듈사용 
+모듈사용 실패
