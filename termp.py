@@ -64,7 +64,19 @@ with mp_hands.Hands(
           text = ""
           if thumb_finger_state == 1 and index_finger_state == 1 and middle_finger_state == 1 and ring_finger_state == 1 and pinky_finger_state == 1:
               text = "보"
-              print('siabl')
+              computer = random.choice(abc)
+              if computer == "가위":
+                print('컴퓨터는 가위를 냈습니다')
+                print('패배')
+                break
+              elif computer == "보":
+                print("컴퓨터는 보를 냈습니다.")
+                print("무승부")
+                break
+              elif computer == "주먹":
+                print("컴퓨터는 주먹을 냈습니다.")
+                print("승리")
+                break
           elif thumb_finger_state == 1 and index_finger_state == 1 and middle_finger_state == 0 and ring_finger_state == 0 and pinky_finger_state == 0:
               text = "가위"
               computer = random.choice(abc)
@@ -82,7 +94,19 @@ with mp_hands.Hands(
                 break
           elif   index_finger_state == 0 and middle_finger_state == 0 and ring_finger_state == 0 and pinky_finger_state == 0:
               text = "주먹"
-             # BAWI()
+              computer = random.choice(abc)
+              if computer == "가위":
+                print('컴퓨터는 가위를 냈습니다')
+                print('승리')
+                break
+              elif computer == "보":
+                print("컴퓨터는 보를 냈습니다.")
+                print("패배")
+                break
+              elif computer == "주먹":
+                print("컴퓨터는 주먹을 냈습니다.")
+                print("무승부")
+                break
 
           w, h = font.getsize(text)
     
