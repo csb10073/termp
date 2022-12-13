@@ -13,6 +13,7 @@
 https://no-delay-code.tistory.com/5
 https://google.github.io/mediapipe/solutions/hands.html
 https://puleugo.tistory.com/10
+
 시연영상:
 
 
