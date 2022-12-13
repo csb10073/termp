@@ -14,4 +14,6 @@ https://no-delay-code.tistory.com/5
 https://google.github.io/mediapipe/solutions/hands.html
 https://puleugo.tistory.com/10
 시연영상:
+
+
 ![KakaoTalk_20221213_235309680](https://user-images.githubusercontent.com/85217336/207366604-9e1cca38-5c18-49c7-9a3e-cffcc2f244f4.gif)
